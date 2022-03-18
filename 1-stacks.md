@@ -35,25 +35,33 @@ This code will print out `['Luke', 'Don', 'Damon']` because 'Sally' was popped f
 - Attempting to pop and item from an empty stack will result in an error. You can check how many items are in a stack with `len(name_of_stack)`.
 
 ## Example
-Let's say that we are writing a program of how we want our computer to best utilize it's RAM. We would want to keep the mostly recently used tasks at the top of the stack so when the user returns to them, they will not have to load again. Let's say that a user is running all of the following programs.
-
+Let's say that we are writing a program of how we want a word processor to use ctrl+z to undo. Each time an action is taken, it is appended to the stack. Each time it is undone, it is popped from the stack.
 ```
-open_programs=['Steam', 'Word', 'Microsoft Edge', 'Spotify', 'One Note']
+actions_taken=['Bolded Font of line 17', 'Deleted line 12', 'Pasted lines 20-23']
 ```
 
-Then the user opens up Visual Studio Code. We would want to make sure that our computer adds that to the top of the memory stack.
-
+Then the user the decides to delete line 3.
 ```
-open_programs.append('Visual Studio Code')
+actions_taken.append('Deleted line 3')
 ```
 
 The stack would now look like this:
-
 ```
-open_programs=['Steam', 'Word', 'Microsoft Edge', 'Spotify', 'One Note', 'Visual Studio Code']
+actions_taken=['Bolded Font of line 17', 'Deleted line 12', 'Pasted lines 20-23', 'Deleted line 3']
 ```
 
-Depending on our program and how much memory the computer has, it may decide to remove Steam from the RAM so it could devote all of it's memory towards the 5 most recently opened programs.
+Then the user decides to undo twice. As we undid those actions, we would remove them from the stack.
+```
+actions_taken.pop()
+actions_taken.pop()
+```
+
+The stack would now look like this:
+```
+actions_taken=['Bolded Font of line 17', 'Deleted line 12']
+```
+
+
 
 ## Practice
 - A second problem (again created by you) which is given to the student of your tutorial to solve on their own. You need to provide a link to the solution.
