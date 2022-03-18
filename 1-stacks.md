@@ -3,7 +3,7 @@
 ## Description
 A stack is a FILO data structure. FILO stands for 'first in last out.' I think of it like a stack of pancakes. The first pancake you put on the serving plate is the last pancake to be taken off. The last pancake you put on the serving plate is the first pancake to be taken off.
 
-Stacks are used any time you need FILO organized data. Some examples would be actions taken in a word processor or pages visited in a browser. You can use ctrl+z to revert to the previous action taken in a word processor. You can use a back button to go back to the previously visited page in a browser.
+Stacks are used any time you need FILO organized data. Storing actions taken in a word processor, pages visited in a browser, or most recently used programs in memory are all implementation examples of stacks.
 
 ### The `append()` Function - O(1) Time
 
@@ -35,7 +35,25 @@ This code will print out `['Luke', 'Don', 'Damon']` because 'Sally' was popped f
 - Attempting to pop and item from an empty stack will result in an error. You can check how many items are in a stack with `len(name_of_stack)`.
 
 ## Example
-- A complete example of a problem solved using the data structure.
+Let's say that we are writing a program of how we want our computer to best utilize it's RAM. We would want to keep the mostly recently used tasks at the top of the stack so when the user returns to them, they will not have to load again. Let's say that a user is running all of the following programs.
+
+```
+open_programs=['Steam', 'Word', 'Microsoft Edge', 'Spotify', 'One Note']
+```
+
+Then the user opens up Visual Studio Code. We would want to make sure that our computer adds that to the top of the memory stack.
+
+```
+open_programs.append('Visual Studio Code')
+```
+
+The stack would now look like this:
+
+```
+open_programs=['Steam', 'Word', 'Microsoft Edge', 'Spotify', 'One Note', 'Visual Studio Code']
+```
+
+Depending on our program and how much memory the computer has, it may decide to remove Steam from the RAM so it could devote all of it's memory towards the 5 most recently opened programs.
 
 ## Practice
 - A second problem (again created by you) which is given to the student of your tutorial to solve on their own. You need to provide a link to the solution.
