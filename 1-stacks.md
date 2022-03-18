@@ -8,6 +8,10 @@
 - How would the data structure be used in Python (in some cases you will need to discuss recursion)?
 - What kind of errors are common when using the data structure?
 
+A stack is a FILO data structure. FILO stands for 'first in last out.' I think of it like a stack of pancakes. The first pancake you put on the serving plate is the last pancake to be taken off. The last pancake you put on the serving plate is the first pancake to be taken off.
+
+In the case of our stack in Python, we use the 'push()' function to add something to the top of the stack, and the 'pop()' function to remove something from the top of the stack.
+
 ## Example
 - A complete example of a problem solved using the data structure.
 
