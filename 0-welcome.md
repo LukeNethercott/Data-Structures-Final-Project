@@ -13,23 +13,3 @@ Each module will contain descriptions and examples. At the end of each module, y
 For questions or comments, please send them to:
 
 Luke Nethercott - luke@nethercott.com
-
-![alt](path to image)
-
-- bullet point
-    - bullet point
-        - bullet point
-1. List
-2. List item
-3. List
-
-words|words
--|-
-words|words
-words|words
-
-`this is some code`
-
-```python
-this is some code
-```
