@@ -3,7 +3,7 @@
 ## Description
 A stack is a FILO data structure. FILO stands for 'first in last out.' I think of it like a stack of pancakes. The first pancake you put on the serving plate is the last pancake to be taken off. The last pancake you put on the serving plate is the first pancake to be taken off.
 
-Stacks are used any time you need FILO organized data. Storing actions taken in a word processor, pages visited in a browser, or most recently used programs in memory are all implementation examples of stacks.
+Stacks are used any time you need FILO organized data. Storing actions taken in a word processor, pages visited in an internet browser, or most recently used programs in memory are all implementation examples of stacks.
 
 ### The `append()` Function - O(1) Time
 
@@ -61,5 +61,5 @@ The stack would now look like this:
 actions_taken=['Bolded Font of line 17', 'Deleted line 12']
 ```
 
-## Practice
-- A second problem (again created by you) which is given to the student of your tutorial to solve on their own. You need to provide a link to the solution.
+## Practice - 'Back' in an Internet Browser
+Write a program that keeps track of the URLs that a user has visited in a single browsing session.
