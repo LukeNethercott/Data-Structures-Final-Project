@@ -34,8 +34,6 @@ print(list_of_names)
 
 This code will print out `['Luke', 'Don', 'Damon']` because 'Sally' was popped from the list.
 
-### The `pop()` Function
-
 ## Example
 - A complete example of a problem solved using the data structure.
 
