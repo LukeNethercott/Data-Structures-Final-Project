@@ -18,11 +18,11 @@ In the case of our stack in Python, we can use the `push()` function to add some
 
 ```
 list_of_names=['Luke', 'Don', 'Damon', 'Sally']
-list_of_names.pop()
+list_of_names.push('Jenny')
 print(list_of_names)
 ```
 
-This code will print out `['Luke', 'Don', 'Damon']` because 'Sally' was popped from the list.
+This code will print out `['Luke', 'Don', 'Damon', 'Sally', 'Jenny']` because 'Sally' was popped from the list.
 
 ### The `pop()` Function
 
