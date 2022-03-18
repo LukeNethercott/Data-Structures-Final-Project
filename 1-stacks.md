@@ -34,7 +34,7 @@ This code will print out `['Luke', 'Don', 'Damon']` because 'Sally' was popped f
 - Inserting or removing data from anywhere except for the end of a stack would defeat the purpose of a FILO organized data structure.
 - Attempting to pop and item from an empty stack will result in an error. You can check how many items are in a stack with `len(name_of_stack)`.
 
-## Example
+## Example - 'Undo' in a Word Processor
 Let's say that we are writing a program of how we want a word processor to use ctrl+z to undo. Each time an action is taken, it is appended to the stack. Each time it is undone, it is popped from the stack.
 ```
 actions_taken=['Bolded Font of line 17', 'Deleted line 12', 'Pasted lines 20-23']
@@ -60,8 +60,6 @@ The stack would now look like this:
 ```
 actions_taken=['Bolded Font of line 17', 'Deleted line 12']
 ```
-
-
 
 ## Practice
 - A second problem (again created by you) which is given to the student of your tutorial to solve on their own. You need to provide a link to the solution.
