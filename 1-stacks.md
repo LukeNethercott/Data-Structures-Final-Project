@@ -62,4 +62,4 @@ actions_taken=['Bolded Font of line 17', 'Deleted line 12']
 ```
 
 ## Practice - 'Back' in an Internet Browser
-Write a program that keeps track of the URLs that a user has visited in a single browsing session.
+Write a program that keeps track of the URLs that a user has visited in a single browsing session. Write a function `new_page()` that adds every URL that a user visits to the top of the stack. Write a second function `go_back()` that removes a URL from the stack when the back button is pressed. Use []() for your starting code. After you have completed the practice, feel free to check [](), one of the many possible solutions.
