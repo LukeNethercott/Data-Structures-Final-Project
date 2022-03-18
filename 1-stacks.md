@@ -17,9 +17,7 @@ list_of_names=['Luke', 'Don', 'Damon', 'Sally']
 list_of_names.pop()
 print(list_of_names)
 ```
-```
-['Luke', 'Don', 'Damon']
-```
+This code will pring out `['Luke', 'Don', 'Damon']` because 'Sally' was popped from the list.
 
 ## Example
 - A complete example of a problem solved using the data structure.
