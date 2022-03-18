@@ -12,4 +12,4 @@ Each module will contain descriptions and examples. At the end of each module, y
 ### Contact
 For questions or comments, please send them to:
 
-Luke Nethercott - luke@nethercott.com
+Luke Nethercott at luke@nethercott.com
