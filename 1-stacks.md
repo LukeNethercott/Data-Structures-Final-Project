@@ -12,12 +12,31 @@ A stack is a FILO data structure. FILO stands for 'first in last out.' I think o
 
 In the case of our stack in Python, we use the `push()` function to add something to the top of the stack, and the `pop()` function to remove something from the top of the stack.
 
+### The `push()` Function
+
+In the case of our stack in Python, we can use the `push()` function to add something from to top of the stack.
+
 ```
 list_of_names=['Luke', 'Don', 'Damon', 'Sally']
 list_of_names.pop()
 print(list_of_names)
 ```
-This code will pring out `['Luke', 'Don', 'Damon']` because 'Sally' was popped from the list.
+
+This code will print out `['Luke', 'Don', 'Damon']` because 'Sally' was popped from the list.
+
+### The `pop()` Function
+
+In the case of our stack in Python, we can use the `pop()` function to remove something from the top of the stack.
+
+```
+list_of_names=['Luke', 'Don', 'Damon', 'Sally']
+list_of_names.pop()
+print(list_of_names)
+```
+
+This code will print out `['Luke', 'Don', 'Damon']` because 'Sally' was popped from the list.
+
+### The `pop()` Function
 
 ## Example
 - A complete example of a problem solved using the data structure.
