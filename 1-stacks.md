@@ -10,7 +10,7 @@
 
 A stack is a FILO data structure. FILO stands for 'first in last out.' I think of it like a stack of pancakes. The first pancake you put on the serving plate is the last pancake to be taken off. The last pancake you put on the serving plate is the first pancake to be taken off.
 
-In the case of our stack in Python, we use the 'push()' function to add something to the top of the stack, and the 'pop()' function to remove something from the top of the stack.
+In the case of our stack in Python, we use the `push()` function to add something to the top of the stack, and the `pop()` function to remove something from the top of the stack.
 
 ## Example
 - A complete example of a problem solved using the data structure.
