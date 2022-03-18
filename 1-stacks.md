@@ -3,7 +3,7 @@
 ## Description
 A stack is a FILO data structure. FILO stands for 'first in last out.' I think of it like a stack of pancakes. The first pancake you put on the serving plate is the last pancake to be taken off. The last pancake you put on the serving plate is the first pancake to be taken off.
 
-Stacks are used any time you need FILO organized data. Storing actions taken in a word processor, pages visited in an internet browser, or most recently used programs in memory are all implementation examples of stacks.
+Stacks are used any time you need FILO organized data. Storing actions taken in a word processor, pages visited in an internet browser.
 
 ### The `append()` Function - O(1) Time
 
@@ -62,4 +62,4 @@ actions_taken=['Bolded Font of line 17', 'Deleted line 12']
 ```
 
 ## Practice - 'Back' in an Internet Browser
-Write a program that keeps track of the URLs that a user has visited in a single browsing session. Write a function `new_page()` that adds every URL that a user visits to the top of the stack. Write a second function `go_back()` that removes a URL from the stack when the back button is pressed. Use [this file](practice-files/stack-practice.py) for your starting code. After you have completed the practice, feel free to check [this file](practice-files/stack-solution.py) for one of the many possible solutions. Good luck!
+In an internet browser, something needs to keep track of the pages that a user has visited so that when they click the back button, they go to the previously visited page. Write a function `new_page()` that adds every URL that a user visits to the top of the stack. Write a second function `go_back()` that removes a URL from the stack when the back button is pressed. Use [this file](practice-files/stack-practice.py) for your starting/test code. After you have completed the practice, feel free to check [this file](practice-files/stack-solution.py) for one of the many possible solutions. Good luck!
