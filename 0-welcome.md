@@ -3,8 +3,8 @@
 
 Welcome to the Data Structures Tutorial. In this tutorial we will cover just three of the many data structures that programmers use:
 
-- [Stacks](1-stack.md)
-- [Linked Lists](2-linked-list.md)
+- [Stacks](1-stacks.md)
+- [Linked Lists](2-linked-lists.md)
 - [Trees](3-trees)
 
 ![alt](path to image)
