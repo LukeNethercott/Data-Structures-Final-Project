@@ -65,3 +65,5 @@ actions_taken=['Bolded Font of line 17', 'Deleted line 12']
 
 ## Practice - 'Back' in an Internet Browser
 In an internet browser, something needs to keep track of the pages that a user has visited so that when they click the back button, they go to the previously visited page. Write a function `new_page()` that adds every URL that a user visits to the top of the stack. Write a second function `go_back()` that removes a URL from the stack when the back button is pressed. Use [this file](practice-files/stack-practice.py) for your starting/test code. After you have completed the practice, feel free to check [this file](practice-files/stack-solution.py) for one of the many possible solutions. Good luck!
+
+Images from [geeksforgeeks.com](geeksforgeeks.com)
