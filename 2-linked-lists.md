@@ -3,12 +3,11 @@
 ## Description
 There are many types of linked lists, but for the purpose of this tutorial we will be dealing with doubly linked lists. A doubly linked list is a data structure made up of nodes. Rather than being ordered by a physical placement in memory, each node has a previous and a next pointer, as well as space for some type of data. A linked list also starts with a head and ends with a tail.
 
-
 ![Doubly Linked List](images/linked-list.png)
 
+You can implement stacks, queues, and many other data structures using doubly linked lists.
 
-
-### The `append()` Function - O(1) Time
+### The Insert Function - O(n) Time
 
 In the case of our stack in Python, we can use the `append()` function to add something to the top of the stack.
 
@@ -20,7 +19,7 @@ print(list_of_names)
 
 This code will print out `['Luke', 'Don', 'Damon', 'Sally', 'Jenny']` because 'Jenny' was appended to the list.
 
-### The `pop()` Function - O(1) Time
+### The Remove Function - O(1) Time
 
 In the case of our stack in Python, we can use the `pop()` function to remove something from the top of the stack.
 
