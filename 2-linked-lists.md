@@ -7,7 +7,7 @@ There are many types of linked lists, but for the purpose of this tutorial we wi
 
 You can implement stacks, queues, and many other data structures using doubly linked lists.
 
-### The Insert Function - O(n) Time
+### The Insert Function - O(n) Time, n=length of list
 To insert a new piece of data into a linked list, we must pass in two parameters. The first is the node after which we should place the new node. The second is what data is in the new node. We must take the following steps to insert a new node as depicted in the image below.
 
 1. Create a new node and give it our data(in this case node E)
@@ -19,17 +19,17 @@ To insert a new piece of data into a linked list, we must pass in two parameters
 
 ![Insert into Doubly Linked List](images/ll-insert.png)
 
-### The Remove Function - O(1) Time
+### The Remove Function - O(n) Time, n=length of list
+To insert a new piece of data into a linked list, we must pass in two parameters. The first is the node after which we should place the new node. The second is what data is in the new node. We must take the following steps to insert a new node as depicted in the image below.
 
-In the case of our stack in Python, we can use the `pop()` function to remove something from the top of the stack.
+1. Create a new node and give it our data(in this case node E)
+2. Find the specified node after which we should place node E(in this case node B)
+3. Set the 'next' attribute of node E to the 'next' attribute of node B(in this case node C)
+4. Set the 'next' attribute of node B to node E
+5. Set the 'prev' attribute of the node E to node B
+6. Set the 'prev' attribute of the node C to node E
 
-```
-list_of_names=['Luke', 'Don', 'Damon', 'Sally']
-list_of_names.pop()
-print(list_of_names)
-```
-
-This code will print out `['Luke', 'Don', 'Damon']` because 'Sally' was popped from the list.
+![Insert into Doubly Linked List](images/ll-delete.gif)
 
 ### Common Errors
 
