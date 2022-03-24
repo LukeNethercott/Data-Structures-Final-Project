@@ -3,7 +3,10 @@
 ## Description
 There are many types of linked lists, but for the purpose of this tutorial we will be dealing withy doubly linked lists. A doubly linked list is a data structure made up of nodes. Rather than being ordered by a physical placement in memory, each node has a previous and a next pointer, as well as a space for some type of data.
 
+
 ![Doubly Linked List](images/linked-list.png)
+
+
 
 ### The `append()` Function - O(1) Time
 
