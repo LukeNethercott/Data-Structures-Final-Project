@@ -9,15 +9,7 @@ You can implement stacks, queues, and many other data structures using doubly li
 
 ### The Insert Function - O(n) Time
 
-In the case of our stack in Python, we can use the `append()` function to add something to the top of the stack.
-
-```
-list_of_names=['Luke', 'Don', 'Damon', 'Sally']
-list_of_names.append('Jenny')
-print(list_of_names)
-```
-
-This code will print out `['Luke', 'Don', 'Damon', 'Sally', 'Jenny']` because 'Jenny' was appended to the list.
+![Insert into Doubly Linked List](images/ll-insert.png)
 
 ### The Remove Function - O(1) Time
 
