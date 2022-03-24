@@ -13,7 +13,7 @@ To insert a new piece of data into a linked list, we must pass in two parameters
 1. Create a new node and give it our data(in this case node E)
 2. Find the specified node after which we should place node E(in this case node B)
 3. Set the 'next' attribute of node E to the 'next' attribute of node B(in this case node C)
-4. Set the 'next' attribute of node B to the node E
+4. Set the 'next' attribute of node B to node E
 5. Set the 'prev' attribute of the node E to node B
 6. Set the 'prev' attribute of the node C to be the node E
 
