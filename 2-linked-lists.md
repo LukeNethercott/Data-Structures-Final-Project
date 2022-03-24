@@ -15,7 +15,7 @@ To insert a new piece of data into a linked list, we must pass in two parameters
 3. Set the 'next' attribute of node E to the 'next' attribute of node B(in this case node C)
 4. Set the 'next' attribute of node B to node E
 5. Set the 'prev' attribute of the node E to node B
-6. Set the 'prev' attribute of the node C to be the node E
+6. Set the 'prev' attribute of the node C to node E
 
 ![Insert into Doubly Linked List](images/ll-insert.png)
 
