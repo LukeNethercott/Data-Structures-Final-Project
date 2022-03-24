@@ -1,9 +1,9 @@
 # Linked Lists
 
 ## Description
-A stack is a FILO data structure. FILO stands for 'first in last out.' I think of it like a stack of pancakes. The first pancake you put on the serving plate is the last pancake to be taken off. The last pancake you put on the serving plate is the first pancake to be taken off.
+There are many types of linked lists, but for the purpose of this tutorial we will be dealing withy doubly linked lists. A doubly linked list is a data structure made up of nodes. Rather than being ordered by a physical placement in memory, each node has a previous and a next pointer, as well as a space for some type of data.
 
-Stacks are used any time you need FILO organized data. Storing actions taken in a word processor, pages visited in an internet browser.
+![Doubly Linked List](images/linked-list.png)
 
 ### The `append()` Function - O(1) Time
 
