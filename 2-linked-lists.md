@@ -11,10 +11,10 @@ You can implement stacks, queues, and many other data structures using doubly li
 To insert a new piece of data into a linked list, we must pass in two parameters. The first is the node after which we should place the new node. The second is what data is in the new node. We must take the following steps to insert a new node as depicted in the image below.
 
 1. Create a new node and give it our data
-2. Find the specified node after which we should place the new node(we'll call this node-x)
-3. Set the 'next' attribute of the new node equal to the 'next' attribute of node-x
-4. Set the 'next' attribute of node-x equal to the new node
-5. Set the 'prev' attribute of the new node to node-x
+2. Find the specified node after which we should place the new node(in this case node B)
+3. Set the 'next' attribute of the new node equal to the 'next' attribute of node B
+4. Set the 'next' attribute of node B equal to the new node
+5. Set the 'prev' attribute of the new node to node B
 6. Set the 'prev' attribute of the node after the new node to be the new node
 
 ![Insert into Doubly Linked List](images/ll-insert.png)
