@@ -22,11 +22,10 @@ To insert a new piece of data into a linked list, we must write a function with 
 ### The Remove Function - O(n) Time, n=length of list
 To remove a node from a linked list, we must write a function with just one parameter; the node to be deleted. Our function must take the following steps to remove a node as depicted in the gif below.
 
-1. Find the specified node after which we should place node E(in this case node B)
-2. Set the 'next' attribute of node E to the 'next' attribute of node B(in this case node C)
-3. Set the 'next' attribute of node B to node E
-4. Set the 'prev' attribute of the node E to node B
-5. Set the 'prev' attribute of the node C to node E
+1. Find the specified that needs to be deleted(in this case node 3)
+2. Set the 'next' attribute of node the node before node 3(in this case node 45) to the node after node 3(in this case node 1
+3. Set the 'prev' attribute of node 1 to node 45
+4. Use the garbage collector to clean up node 3
 
 ![Insert into Doubly Linked List](images/ll-delete.gif)
 
