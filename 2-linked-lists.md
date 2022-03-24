@@ -8,7 +8,7 @@ There are many types of linked lists, but for the purpose of this tutorial we wi
 You can implement stacks, queues, and many other data structures using doubly linked lists.
 
 ### The Insert Function - O(n) Time, n=length of list
-To insert a new piece of data into a linked list, we must pass in two parameters. The first is the node after which we should place the new node. The second is what data is in the new node. We must take the following steps to insert a new node as depicted in the image below.
+To insert a new piece of data into a linked list, we must write a function with two parameters. The first parameter is the node after which we should place the new node. The second is what data is in the new node. Our function must take the following steps to insert a new node as depicted in the image below.
 
 1. Create a new node and give it our data(in this case node E)
 2. Find the specified node after which we should place node E(in this case node B)
@@ -20,14 +20,13 @@ To insert a new piece of data into a linked list, we must pass in two parameters
 ![Insert into Doubly Linked List](images/ll-insert.png)
 
 ### The Remove Function - O(n) Time, n=length of list
-To insert a new piece of data into a linked list, we must pass in two parameters. The first is the node after which we should place the new node. The second is what data is in the new node. We must take the following steps to insert a new node as depicted in the image below.
+To remove a node from a linked list, we must write a function with just one parameter; the node to be deleted. Our function must take the following steps to remove a node as depicted in the gif below.
 
-1. Create a new node and give it our data(in this case node E)
-2. Find the specified node after which we should place node E(in this case node B)
-3. Set the 'next' attribute of node E to the 'next' attribute of node B(in this case node C)
-4. Set the 'next' attribute of node B to node E
-5. Set the 'prev' attribute of the node E to node B
-6. Set the 'prev' attribute of the node C to node E
+1. Find the specified node after which we should place node E(in this case node B)
+2. Set the 'next' attribute of node E to the 'next' attribute of node B(in this case node C)
+3. Set the 'next' attribute of node B to node E
+4. Set the 'prev' attribute of the node E to node B
+5. Set the 'prev' attribute of the node C to node E
 
 ![Insert into Doubly Linked List](images/ll-delete.gif)
 
