@@ -1,7 +1,7 @@
 # Linked Lists
 
 ## Description
-There are many types of linked lists, but for the purpose of this tutorial we will be dealing withy doubly linked lists. A doubly linked list is a data structure made up of nodes. Rather than being ordered by a physical placement in memory, each node has a previous and a next pointer, as well as a space for some type of data.
+There are many types of linked lists, but for the purpose of this tutorial we will be dealing with doubly linked lists. A doubly linked list is a data structure made up of nodes. Rather than being ordered by a physical placement in memory, each node has a previous and a next pointer, as well as space for some type of data. A linked list also starts with a head and ends with a tail.
 
 
 ![Doubly Linked List](images/linked-list.png)
