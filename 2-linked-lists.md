@@ -35,6 +35,7 @@ To remove a node from a linked list, we must write a function with just one para
 ## Example - 'Undo' in a Word Processor
 
 ## Practice - Customer Priority Queue
-[]
+[Practice](practice-files/linked-list-practice.py)
+[Solution](practice-files/linked-list-solution.py)
 
 Images from [geeksforgeeks.org](https://www.geeksforgeeks.org)
