@@ -30,9 +30,11 @@ To remove a node from a linked list, we must write a function with just one para
 ![Insert into Doubly Linked List](images/ll-delete.gif)
 
 ### Common Errors
+- When making changes in a linked list, never forget to make sure that both the prev and next pointers are correctly set for all involved nodes
 
 ## Example - 'Undo' in a Word Processor
 
-## Practice - 'Back' in an Internet Browser
+## Practice - Customer Priority Queue
+[]
 
 Images from [geeksforgeeks.org](https://www.geeksforgeeks.org)
