@@ -34,7 +34,7 @@ To remove a node from a linked list, we must write a function with just one para
 
 ## Example - Remove Function
 
-`
+```
 def insert_after(self, value, new_value):
     curr = self.head
     while curr is not None:
@@ -52,7 +52,7 @@ def insert_after(self, value, new_value):
                 curr.next = new_node
             return
         curr = curr.next
-`
+```py
 
 ## Practice - Customer Priority Queue
 We are designing a program for a company that does customer service. Each customer can choose one of three tiers of how much money they want to pay monthly, and the more they pay the faster they are helped by the customer service team. Your job is to put each new customer that calls in their correct place in the queue. The more stars next to a customer's name, the higher priority they are. The highest priority customers should be at the beginning of the linked list, and the lowest at the end.
