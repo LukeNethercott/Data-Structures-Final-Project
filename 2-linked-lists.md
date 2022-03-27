@@ -32,27 +32,30 @@ To remove a node from a linked list, we must write a function with just one para
 ### Common Errors
 - When making changes in a linked list, never forget to make sure that both the prev and next pointers are correctly set for all involved nodes
 
-## Example - Remove Function
+## Example - Insert After Function
+Below I will show you how to implement a function that can be used to insert a node after any given node. You will implement a similar function in the practice below, so make sure to understand how the function is working.
 
 ```python
-def insert_after(self, value, new_value):
-    curr = self.head
-    while curr is not None:
-        if curr.data == value:
-            if curr == self.tail:
-                new_node = LinkedList.Node(new_value)
-                new_node.prev = self.tail
-                self.tail.next = new_node
-                self.tail = new_node
-            else:
-                new_node = LinkedList.Node(new_value)
-                new_node.prev = curr
-                new_node.next = curr.next
-                curr.next.prev = new_node
-                curr.next = new_node
+def insert_after(self, value, new_value):                 # Declare the function, parameters are the new value, and the value of the node it should be placed after
+    curr = self.head                                      # 'curr' is a counter, start it at the beginning
+    while curr is not None:                               # starting a loop as long as there is at least one thing in the list
+        if curr.data == value:                            # if the current node is the value we're searching for
+            if curr == self.tail:                         # if it is also the tail
+                new_node = LinkedList.Node(new_value)     # make the new node
+                new_node.prev = self.tail                 # place the new node at the end by setting it's prev to the old tail
+                self.tail.next = new_node                 # set the old tail's next to the new node
+                self.tail = new_node                      # set tail to be the new node since it is now at the end
+            else:                                         # if isn't the tail
+                new_node = LinkedList.Node(new_value)     # make a new node
+                new_node.prev = curr                      # set the prev of new node to curr
+                new_node.next = curr.next                 # set the next of new node to curr's next
+                curr.next.prev = new_node                 # set curr's next's prev to be the new node
+                curr.next = new_node                      # set curr's next to be the new node
             return
-        curr = curr.next
+        curr = curr.next                                  # if we haven't matched curr yet, keep searching
 ```
+
+![Here is a repeat of the image from earlier.](images/ll-insert.png)
 
 ## Practice - Customer Priority Queue
 We are designing a program for a company that does customer service. Each customer can choose one of three tiers of how much money they want to pay monthly, and the more they pay the faster they are helped by the customer service team. Your job is to put each new customer that calls in their correct place in the queue. The more stars next to a customer's name, the higher priority they are. The highest priority customers should be at the beginning of the linked list, and the lowest at the end.
