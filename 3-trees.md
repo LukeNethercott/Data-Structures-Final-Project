@@ -3,7 +3,7 @@
 ## Description
 There are many types of trees, but for the purpose of this tutorial we will be dealing with binary search trees. A binary search tree is similar to a linked list in a lot of ways. It is a data structure made up of nodes. Rather than being ordered by a physical placement in memory, each node has a pointer to a left child and to a right child, as well as space for some type of data. A binary search tree starts with a root and ends with leaves.
 
-![Doubly Linked List](images/linked-list.png)
+![Binary Search Tree](images/bst.png)
 
 You can implement stacks, queues, and many other data structures using doubly linked lists.
 
