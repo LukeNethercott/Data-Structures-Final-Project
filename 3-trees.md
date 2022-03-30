@@ -5,7 +5,7 @@ There are many types of trees, but for the purpose of this tutorial we will be d
 
 ![Binary Search Tree](images/bst.png)
 
-You can implement stacks, queues, and many other data structures using doubly linked lists.
+In a binary search tree, everything to the left of any given node w
 
 ### The Insert Function - O(n) Time, n=length of list
 To insert a new piece of data into a linked list, we must write a function with two parameters. The first parameter is the node after which we should place the new node. The second is what data is in the new node. Our function must take the following steps to insert a new node as depicted in the image below.
