@@ -1,7 +1,7 @@
 # Trees
 
 ## Description
-There are many types of linked lists, but for the purpose of this tutorial we will be dealing with doubly linked lists. A doubly linked list is a data structure made up of nodes. Rather than being ordered by a physical placement in memory, each node has a previous and a next pointer, as well as space for some type of data. A linked list also starts with a head and ends with a tail.
+There are many types of trees, but for the purpose of this tutorial we will be dealing with binary search trees. A binary search tree is similar to a linked list in a lot of ways. It is a data structure made up of nodes. Rather than being ordered by a physical placement in memory, each node has a pointer to a left child and to a right child, as well as space for some type of data. A binary search tree starts with a root and ends with leaves.
 
 ![Doubly Linked List](images/linked-list.png)
 
