@@ -5,7 +5,7 @@ There are many types of trees, but for the purpose of this tutorial we will be d
 
 ![Binary Search Tree](images/bst1.png)
 
-In a binary search tree, everything to the left of any given node w
+In a binary search tree, everything to the left of any given node has data of a lesser value than the given node. Everything to the right holds data of a greater value.
 
 ### The Insert Function - O(n) Time, n=length of list
 To insert a new piece of data into a linked list, we must write a function with two parameters. The first parameter is the node after which we should place the new node. The second is what data is in the new node. Our function must take the following steps to insert a new node as depicted in the image below.
