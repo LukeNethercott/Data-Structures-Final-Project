@@ -7,24 +7,26 @@ There are many types of trees, but for the purpose of this tutorial we will be d
 
 In a binary search tree, everything to the left of any given node has data of a lesser value than the given node. Everything to the right holds data of a greater value.
 
+### A balanced binary search tree
+When creating a binary search tree, it is helpful when it is balanced. This means that if you drew it out in a diagram like the one above, the tree would be as symmetrical as possible. This makes search times faster because they can be done in O(logn) time. If a tree is unbalanced, it could take as long as O(n) time, so it's important to keep it balanced when possible.
+
 ### The Insert Function - O(logn) Time (if balanced), n=number of nodes
 To insert a new piece of data into a binary search tree, we must write a recursive function with two parameters. The first parameter is the data that will go inside of the new node. The second is a node that we will check values with. Our function must take the following steps to insert a new node.
 
 1. The first time we call the function, we should pass in the root for the node parameter so we start from the beginning.
 2. Check to see if the node we are checking is `None`. If it is, then we make a new node there and insert our data and we are done.
 3. If we aren't done yet, check if the new data is less than or greater than the data in the node we are checking.
-4. If it is less than, repeat steps 2-3 with the node we are checking's left child.
-5. If it is greater than, repeat steps 2-3 with the node we are checking's right child.
+4. If it is less than, repeat steps 2-3(and 4 or 5) with the node we are checking's left child.
+5. If it is greater than, repeat steps 2-3(and 4 or 5) with the node we are checking's right child.
 
-### The Remove Function - O(n) Time, n=length of list
-To remove a node from a linked list, we must write a function with just one parameter; the node to be deleted. Our function must take the following steps to remove a node as depicted in the gif below.
+### The Search Function
+In a balanced binary search tree, searching is much faster than in a standard list. Since we cut the data in half with every traversal, a search can always be completed in O(logn) time. It's algorithm is very similar to the insert algorithm.
 
-1. Find the specified that needs to be deleted(in this case node 3)
-2. Set the 'next' attribute of node the node before node 3(in this case node 45) to the node after node 3(in this case node 1
-3. Set the 'prev' attribute of node 1 to node 45
-4. Use the garbage collector to clean up node 3
-
-![Insert into Doubly Linked List](images/ll-delete.gif)
+1. Compare that data you're searching for with a node. (start with the root)
+2. Check to see if the node we are checking is `None`. If it is, then we know that data is not in the tree and we are done.
+3. If we aren't done yet, check if the new data is less than or greater than the data in the node we are checking.
+4. If it is less than, repeat steps 2-3(and 4 or 5) with the node we are checking's left child.
+5. If it is greater than, repeat steps 2-3(and 4 or 5) with the node we are checking's right child.
 
 ### Common Errors
 
