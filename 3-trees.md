@@ -29,6 +29,8 @@ In a balanced binary search tree, searching is much faster than in a standard li
 5. If it is greater than, repeat steps 2-3(and 4 or 5) with the node we are checking's right child.
 
 ### Common Errors
+- It's important to keep your tree balanced if you are expecting O(logn) time results
+- Make sure to account for the instances in which your tree has no data in it
 
 ## Example - Insert After Function
 
