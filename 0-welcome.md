@@ -5,7 +5,7 @@ Welcome to the Data Structures Tutorial. In this tutorial we will cover just thr
 
 - [Stacks](1-stacks.md)
 - [Linked Lists](2-linked-lists.md)
-- [Trees](3-trees)
+- [Trees](3-trees.md)
 
 Each module will contain descriptions and examples. At the end of each module, you will find a problem to solve on your own.
 
