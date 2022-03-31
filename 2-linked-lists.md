@@ -60,7 +60,7 @@ def insert_after(self, value, new_value):                 # Declare the function
 ## Practice - Customer Priority Queue
 We are designing a program for a company that does customer service. Each customer can choose one of three tiers of how much money they want to pay monthly, and the more they pay the faster they are helped by the customer service team. Your job is to put each new customer that calls in their correct place in the queue. The more stars next to a customer's name, the higher priority they are. The highest priority customers should be at the beginning of the linked list, and the lowest at the end.
 
-Download [this starting code.](practice-files/linked-list-practice.py) Design and implement the `insert_before()`, `customer_priority`, and `order_in_queue` functions.
+Download [this starting code.](practice-files/linked-list-practice.py) Design and implement the `insert_before()`, `customer_priority()`, and `order_in_queue()` functions.
 
 See the solution [here.](practice-files/linked-list-solution.py)
 #
