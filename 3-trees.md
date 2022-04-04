@@ -38,7 +38,7 @@ In a balanced binary search tree, searching is much faster than in a standard li
 ## Practice - Customer Priority Queue
 Let's say we are writing code for a university, and each student has a unique student ID. They have each of their course sections organized into a binary search tree where each node represents a student. The university needs a program with which you can enter a course section and a student ID. If the given student is in the given section, the program will print true. If the given student is not in the given course section, the program will print false.
 
-Write a function `student_in_section` that searches through the tree and prints true or false accordingly.
+Write a function `student_in_section()` that searches through the tree and prints true or false accordingly.
 
 Download the starting code at [this link](practice-files/trees-practice.py). See the solution at [this link](practice-files/trees-solution.py).
 
