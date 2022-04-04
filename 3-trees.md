@@ -32,10 +32,10 @@ In a balanced binary search tree, searching is much faster than in a standard li
 - It's important to keep your tree balanced if you are expecting O(logn) time results
 - Make sure to account for the instances in which your tree has no data in it
 
-## Example - Class of Students
+## Example
 
 
-## Practice - Customer Priority Queue
+## Practice - University Course Sections
 Let's say we are writing code for a university, and each student has a unique student ID. They have each of their course sections organized into a binary search tree where each node represents a student. The university needs a program with which you can enter a course section and a student ID. If the given student is in the given section, the program will print true. If the given student is not in the given course section, the program will print false.
 
 Write a function `student_in_section()` that searches through the tree and prints true or false accordingly.
