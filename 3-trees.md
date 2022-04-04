@@ -33,11 +33,34 @@ In a balanced binary search tree, searching is much faster than in a standard li
 - Make sure to account for the instances in which your tree has no data in it
 
 ## Example - Company Department Employees
-Let's say we are writing code for a company, and each employee has a unique employee ID. Every employee ID starts with the four numbers of the year they were hired. (e.g. 202212345 for someone that was hired in 2022) The company has each of their departments organized into a binary search tree where each node represents an employee. The company needs a program with which you can enter a department and a year. The program will then print out each employee in that department hired in that year.
+Let's say we are writing code for a company, and each employee has a unique employee ID. Every employee ID starts with the four numbers of the year they were hired, followed by a 5 digit auto-incremented number. (e.g. 202212345 for someone that was hired in 2022) The company has each of their departments organized into a binary search tree where each node represents an employee. The company needs a program with which you can enter a department and a year. The program will then print out each ID from the employees in that department hired in that year.
 
-Write a function `employees_in_department()` that searches through the tree and prints true or false accordingly.
+To write a function `employees_in_department()` that searches through the tree and prints the correct employee IDs, we would do the following:
 
-Download the starting code at [this link](practice-files/trees-practice.py). See the solution at [this link](practice-files/trees-solution.py).
+```python
+def employees_in_department(department, year):
+    employees_found=False
+    for employee in department:
+        if str(employee)[:4]==str(year):
+            print(employee)
+            employees_found=True
+    
+    if employees_found==False:
+        print('No employees found for the given year')
+
+department = BST()
+department.insert(201912345)
+department.insert(202016584)
+department.insert(202013497)
+department.insert(202195432)
+department.insert(202146464)
+department.insert(202215987)
+
+employees_in_department(department, 2019) # prints '201912345'
+employees_in_department(department, 2018) # prints 'No employees found for the given year'
+```
+
+Download the example code at [this link](practice-files/trees-example.py).
 
 ## Practice - University Course Sections
 Let's say we are writing code for a university, and each student has a unique student ID. They have each of their course sections organized into a binary search tree where each node represents a student. The university needs a program with which you can enter a course section and a student ID. If the given student is in the given section, the program will print true. If the given student is not in the given course section, the program will print false.
