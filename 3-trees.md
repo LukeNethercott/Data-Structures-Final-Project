@@ -32,8 +32,12 @@ In a balanced binary search tree, searching is much faster than in a standard li
 - It's important to keep your tree balanced if you are expecting O(logn) time results
 - Make sure to account for the instances in which your tree has no data in it
 
-## Example
+## Example - Company Department Employees
+Let's say we are writing code for a company, and each employee has a unique employee ID. Every employee ID starts with the four numbers of the year they were hired. (e.g. 202212345 for someone that was hired in 2022) The company has each of their departments organized into a binary search tree where each node represents an employee. The company needs a program with which you can enter a department and a year. The program will then print out each employee in that department hired in that year.
 
+Write a function `employees_in_department()` that searches through the tree and prints true or false accordingly.
+
+Download the starting code at [this link](practice-files/trees-practice.py). See the solution at [this link](practice-files/trees-solution.py).
 
 ## Practice - University Course Sections
 Let's say we are writing code for a university, and each student has a unique student ID. They have each of their course sections organized into a binary search tree where each node represents a student. The university needs a program with which you can enter a course section and a student ID. If the given student is in the given section, the program will print true. If the given student is not in the given course section, the program will print false.
