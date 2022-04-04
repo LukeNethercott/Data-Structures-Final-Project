@@ -40,5 +40,7 @@ Let's say we are writing code for a university, and each student has a unique st
 
 Write a function `student_in_section` that searches through the tree and prints true or false accordingly.
 
+Download the starting code at [this link](). See the solution at [this link]().
+
 #
 Images from [geeksforgeeks.org](https://www.geeksforgeeks.org)
